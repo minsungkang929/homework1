@@ -15,6 +15,11 @@ The correct answer would be 17.
 
 function countSheeps(arrayOfSheep) {
   // TODO
+  let count = 0;
+  for(let i = 0; i < arrayOfSheep.Length; i++){
+   if(arrayOfSheep[i]) count++; 
+  }
+  return count;
 }
 
 var array1 = [true,  true,  true,  false,
